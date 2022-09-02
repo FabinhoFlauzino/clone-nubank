@@ -694,7 +694,7 @@ a {
 
     .section {
         width: 100%;
-        min-height: 100vh;
+        min-height: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -748,7 +748,7 @@ a {
             align-items: center;
 
             img {
-                max-width: 300px;
+                max-width: 200px;
             }
         }
     }
@@ -756,7 +756,7 @@ a {
 
     .section-img {
         width: 100%;
-        height: 100vh;
+        height: 400px;
         display: flex;
         align-items: center;
 
