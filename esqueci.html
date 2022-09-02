@@ -23,17 +23,12 @@
     </header>
     <section class="login">
         <div class="hero-form">
-            <h2>Faça seu login</h2>
-            <form action="bem-vindo.html" class="form-login validatorForm">
-
-                <label for="cpf">
-                    Digite seu CPF
-                    <input type="text" name="cpf" id="cpf" maxlength="14" data-rules="required|cpf|min:14">
-                </label>
-
+            <h2>Redefinir senha</h2>
+            <form action="./login.html" method="post" class="form-login validatorForm">
+                <input type="hidden" name="password" class="password-hidden">
                 <label for="senha">
-                    Digite sua senha
-                    <input type="password" name="senha" id="senha" data-rules="required|senha">
+                    Digite sua nova senha
+                    <input type="password" class="senha" name="senha" id="senha" data-rules="required|senha">
                 </label>
 
                 <button type="submit" class="btn">Continuar
@@ -48,8 +43,7 @@
                 </button>
 
                 <div class="form-info">
-                    <a href="./esqueci.html">Esqueci a senha</a>
-                    <a href="./cadastro.html">Ainda não sou cliente</a>
+                    <a href="./login.html">Já sou Cliente</a>
                 </div>
             </form>
         </div>

@@ -372,4 +372,10 @@ a {
 }
 .footer .footer-secondary .footer-icons a svg path:hover {
   color: #ab4bea;
+}
+
+.error {
+  color: #dd686a;
+  font-size: 12px;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */

@@ -99,4 +99,10 @@ body {
 .login .hero-form form .form-info a::after {
   content: ">";
   margin-left: 5px;
+}
+
+.error {
+  color: #dd686a;
+  font-size: 12px;
+  text-align: left;
 }/*# sourceMappingURL=login.css.map */
