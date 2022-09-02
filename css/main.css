@@ -42,9 +42,6 @@ a {
 .nav-header .logo {
   max-width: 55px;
 }
-.nav-header .nav-navigator {
-  position: relative;
-}
 .nav-header .nav-navigator .nav-list {
   display: flex;
   gap: 15px;
