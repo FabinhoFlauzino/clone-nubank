@@ -107,3 +107,15 @@ let validator = {
 
 let form = document.querySelector('.validatorForm');
 form.addEventListener('submit', validator.handleSubmit);
+
+const btnShow = document.querySelector('.toggle-menu');
+const navigator = document.querySelector('.nav-navigator')
+const navList = document.querySelector('.nav-list-item')
+
+btnShow.addEventListener('click', () => {
+    navigator.classList.toggle('show');
+})
+
+navList.addEventListener('click', () => {
+    navigator.classList.toggle('show');
+})
